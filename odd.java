@@ -12,6 +12,7 @@ class Ideone
 	     String s1 = sc.nextLine();
 	     String s2 = sc.nextLine();
 	     try{
+		     if(n<=100000 && q<=100000)
 	     	int n = Integer.parseInt(s1);
 	            int q = Integer.parseInt(s2);
 	     	for(int i=n;i<q;i++){
