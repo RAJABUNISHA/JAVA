@@ -21,9 +21,9 @@ class Ideone
 				
 			}
 			if(temp==c)
-			System.out.println("yes it is amstrong");
+			System.out.println("yes");
 			else
-			System.out.println("no it is no amstrong");
+			System.out.println("no");
 			
 		}
 	         catch(NumberFormatException nef){
