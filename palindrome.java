@@ -21,18 +21,18 @@ class Ideone
 			   
 			  K= N%10;
 			  reverse = reverse * 10 + K;
-          N /= 10;
+                         N /= 10;
 			 }
 			if(temp==reverse)
 			System.out.println("yes");
 			}
 			else
-      {
-			 System.out.println("no");	
+                         { 
+	 		 System.out.println("no");	
 			}
 		}
 		catch(NumberFormatException nef) 
-    {
+                {
 			System.out.println("invalid input");
 		}
 	}
