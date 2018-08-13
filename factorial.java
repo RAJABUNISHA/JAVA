@@ -1,3 +1,4 @@
+import java.util.*;
 class factorial{
  public static void main(String args[]){
    Scanner s=new Scanner(System.in);
